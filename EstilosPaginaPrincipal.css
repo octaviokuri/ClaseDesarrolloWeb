@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div{
+    position: relative;
+    float: left;
+}
+
+#Principal{
+    width: 100%;
+    height: 600px;
+    background: #AAD7D1;
+}
+
+#Principal H1{
+    padding-top: 250px;
+    height: 50%;
+    text-align: center;
+    font-size: 50px;
+}
+
+button{
+    height: 50px;
+    width: 180px;
+    border: none;
+    border-radius: 30px;
+    background: #FFF87F;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 90px);
+    cursor: pointer;
+}
+
+.Contenedor{
+    width: 100%;
+    height: 300px;
+    background:#F4F1BB;
+}
+
+    .izq{
+        width: 40%;
+        height: 100%;
+        position: absolute;
+        text-align: left;
+        padding-left: 55%;
+        padding-top: 5%;
+        padding-right: 5%;               
+        background:#EAF2E3;
+    }
+
+    .der{
+        width: 40%;
+        height: 100%;
+        position: absolute;
+        text-align: left;
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        background:#FF637D;
+        /*left: -10%;*/
+        /*transform: skewX(10deg);*/
+    }
+
+.Contenedor-p{
+    width: 90%;
+    height: 250px;
+    background: #F4F1BB ;
+    padding-top: 50px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.WS input{
+    height: 50px;
+    width: 130px;
+    border: none;
+    border-radius: 20px;
+    background:rgb(105, 206, 105);
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 20px;
+    left: 450px;
+    cursor: pointer;
+}
+
+.Correo input{
+    height: 50px;
+    width: 130px;
+    border: none;
+    border-radius: 20px;
+    background: rgb(221, 134, 134);
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    left: 500px;
+    cursor: pointer;
+}
